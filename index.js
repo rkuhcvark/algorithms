@@ -5,4 +5,4 @@
 require('./src/playground');
 // require('./src/Codility/array_1');
 // require('./src/Codility/Arrays/array_2');
-require('./src/Codility/Time Complexity/FrogJmp');
+require('./src/Codility/Time Complexity/PermMissingElement');
