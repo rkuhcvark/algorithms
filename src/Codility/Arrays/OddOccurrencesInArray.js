@@ -1,17 +1,13 @@
 function solution(A) {
-  var counts = {};
-  for (var i = 0, l = A.length; i < l; i++) {
-    console.log('AI', A[i]);
+  let counts = {};
+  for (let i = 0, l = A.length; i < l; i++) {
     counts[A[i]] = (counts[A[i]] || 0) + 1;
   }
 
-  var result = A.filter(function(item) {
-    return counts[item] <= 1;
-  });
+  return A.filter(item => counts[item] % 2 == 1)[0];
 }
 
-let arr = [9, 3, 9, 3, 9, 7, 9];
-solution(arr);
+solution([9, 3, 9, 3, 9, 7, 9]);
 
 /*
 A non-empty array A consisting of N integers is given. The array contains an odd number of elements, and each element of the array can be paired with another element that has the same value, except for one element that is left unpaired.

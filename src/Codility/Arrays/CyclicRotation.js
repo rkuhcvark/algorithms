@@ -1,14 +1,15 @@
-function solution(A, K) {
+function solution(A = [], K) {
+  if (A.length === 0) return [];
   let i = 0;
   while (i < K) {
     A.unshift(A.pop());
     K--;
   }
-  console.log(A);
+
   return A;
 }
 
-solution([1, 2, 3, 4], 4);
+console.log(solution([], 4));
 
 /**
  * 
