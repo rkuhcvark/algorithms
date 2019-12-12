@@ -9,4 +9,5 @@ require('./src/playground');
 // require('./src/Codility/Time Complexity/TapeEquilibrium');
 // require('./src/Codility/counting_elements/PermCheck');
 // require('./src/Codility/counting_elements/FrogRiverOne');
-require('./src/Codility/counting_elements/MissingInteger');
+// require('./src/Codility/counting_elements/MissingInteger');
+require('./src/Codility/prefix_sums/PassingCars');
