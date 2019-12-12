@@ -7,4 +7,6 @@ require('./src/playground');
 // require('./src/Codility/arrays/OddOccurrencesInArray');
 // require('./src/Codility/Time Complexity/PermMissingElement');
 // require('./src/Codility/Time Complexity/TapeEquilibrium');
-require('./src/Codility/counting_elements/PermCheck');
+// require('./src/Codility/counting_elements/PermCheck');
+// require('./src/Codility/counting_elements/FrogRiverOne');
+require('./src/Codility/counting_elements/MissingInteger');
